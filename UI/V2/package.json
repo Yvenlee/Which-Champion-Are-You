@@ -1,0 +1,19 @@
+{
+  "name": "qcet",
+  "version": "1.0.0",
+  "description": "Who do you look like?",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:DineJ/Which-champions-are-you-.git"
+  },
+  "author": "Dine Jridi",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^33.2.1"
+  }
+}

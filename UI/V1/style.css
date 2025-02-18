@@ -1,0 +1,48 @@
+/* style.css */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#drop-area {
+  width: 400px;
+  height: 200px;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 200px;
+  border: 2px dashed #ccc;
+  cursor: pointer;
+}
+
+#preview-container {
+  text-align: center;
+}
+
+#drop-area.drag-over {
+  background-color: #eee;
+}
+
+.preview-image {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+.my-uploader {
+  /* setting accent color and the of the uploader */
+  --uc-primary-oklch-dark: 69% 0.1768 258.4;
+  --uc-primary-oklch-light: 59% 0.22 264;
+
+  /* positioning the uploader button on the page */
+  display: inline-flex;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
